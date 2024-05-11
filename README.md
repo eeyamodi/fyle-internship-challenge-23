@@ -41,3 +41,10 @@ Run `ng serve` for a dev server. Navigate to http://localhost:4200/. The app wil
 
 Visit the [Angular Documentation](https://angular.io/guide/styleguide) to learn more.
 Styling is to be strictly done with [Tailwind](https://tailwindcss.com/docs/installation).
+
+## Testing
+
+Run `ng test` to run test. The app will automatically reload if you change any of the source files.
+
+Run `ng test --no-watch --code-coverage` to run test and generate coverage report.
+reports available in /coverage directory

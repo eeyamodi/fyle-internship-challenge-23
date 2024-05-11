@@ -3,16 +3,27 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { HttpClientModule } from  '@angular/common/http';
+import { UserdetailsComponent } from './userdetails/userdetails.component';
+import { SearchComponent } from './search/search.component';
+import { RepocardComponent } from './repocard/repocard.component';
+import { PageselectorComponent } from './pageselector/pageselector.component';
+import { ApiService } from './services/api.service';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,
-    HttpClientModule
+    HttpClientModule,
+    UserdetailsComponent,
+    SearchComponent,
+    RepocardComponent,
+    PageselectorComponent
   ],
-  providers: [],
+  providers: [ApiService],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { 
+
+}
